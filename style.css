@@ -1,0 +1,132 @@
+      body {
+      margin:0;
+      padding:0;
+      text-align: center;
+      font-family: Open Sans;
+      }
+
+      nav {
+      background: rgb(10, 19, 27);
+      position: relative;
+      z-index: 12;
+      text-align: center;
+      z-index:10;
+      }
+
+      nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-align: center;
+      display: inline-block;
+      }
+
+     nav li {
+      display: inline-block;
+      padding: 0;
+      padding-top: 20px; padding-bottom: 20px;
+     }
+
+     nav a {
+      font-size: 14px;
+      color: white;
+      letter-spacing: 1px;
+      margin-left: 25px;
+      margin-right: 25px; 
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: rgb(99, 117, 180);
+    }
+
+   #header {
+      max-width: 100%;
+    }
+    
+    #panier {
+     position: absolute;
+     top: 8px;
+     left: 20px;
+     color: white;
+     z-index: 20;
+    }
+
+    h1 {
+     font-family: Roboto Condensed;
+     letter-spacing: 1px;
+   }
+
+    a {
+      text-decoration:none;
+      font-size: 13px;
+      color: #009bc5;
+    }
+
+    .champ {
+        display: inline-block;
+        width: 300px;
+        margin: 8px;
+        font-size: 15px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+
+      #envoyer {
+        padding: 5px 20px 5px 20px;
+        border: 1px solid #4ba0d7;
+        color: #4ba0d7;
+        border-radius: 4px;
+        background: none;
+        transition: all ease 500ms;
+        font-size: 15px;
+      }
+
+      #envoyer:hover {
+        background-color:  #4ba0d7;
+        color: white;
+        cursor: pointer;
+      }
+
+      .panier {
+         display: inline-block;
+         background-color: #eaeaea;
+         padding: 10px 100px 10px 100px;
+         border-bottom: 2px solid #c8c8c8;
+         font-family: Segoe UI;
+         width: 30%;
+      }
+
+      .panier:hover {
+        border-color: #5588e0;
+      }
+
+      .supprimer_panier {
+        display: inline-block;
+        background-color: #ba3737;
+        padding: 4px 10px 4px 10px;
+        margin: 10px;
+        color: white;
+        border-radius: 4px;
+      }
+
+  .enregistrement_titre {
+    font-size: 24px;
+  }
+
+    .ajouter_panier {
+    background-color: #ffcf00;
+    color: black;
+    padding: 3px 15px 3px 15px;
+    border-radius: 4px;
+  }
+
+  .ajouter_panier:hover {
+    background-color: #ffa200;
+  }
+
+  .nom_album {
+    font-size: 22px;
+  }
